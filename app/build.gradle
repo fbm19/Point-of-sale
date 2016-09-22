@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '24'
+
+    defaultConfig {
+        applicationId "com.sifast.appsocle"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        javaMaxHeapSize "6g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+}
+repositories {
+    jcenter()
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+
+
+//firebase  Auth
+    // compile 'com.firebase:firebase-auth:9.0.1'
+
+    //google sign in sdk
+    // compile 'com.google.android.gms:play-services-auth:9.0.1'
+
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:design:23.0.0'
+    compile 'com.firebase:firebase-client-android:2.3.1'
+    compile 'com.google.android.gms:play-services:9.2.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:recyclerview-v7:23.0.0'
+
+    compile 'com.google.firebase:firebase-auth:9.2.0'
+    compile 'com.google.android.gms:play-services-auth:9.2.0'
+ 
+}
+//apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.gms.google-services'

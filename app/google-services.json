@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "754817311726",
+    "firebase_url": "https://socleandroid-2077c.firebaseio.com",
+    "project_id": "socleandroid-2077c",
+    "storage_bucket": "socleandroid-2077c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754817311726:android:5169b954a9b78184",
+        "android_client_info": {
+          "package_name": "com.sifast.appsocle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754817311726-ve39i10mlp0rvb14v662u206arcj8ack.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sifast.appsocle",
+            "certificate_hash": "1FEE9FDF43F3E4F89E424440D1AFD61F2A104265"
+          }
+        },
+        {
+          "client_id": "754817311726-q0satos5q99tngdg1cul3qitgqja1qto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLz3-eDHNeL8aDo8KNY6WuaBaqtM0cDzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754817311726-q0satos5q99tngdg1cul3qitgqja1qto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

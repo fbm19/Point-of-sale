@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppSocle</string>
+    <string name="username">Pseudo</string>
+    <string name="password">Mot de passe</string>
+    <string name="g">G</string>
+    <string name="Password">Mot de passe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Paramétres</string>
+    <string name="register">S inscrire</string>
+    <string name="login">Se connecter</string>
+    <string name="title_activity_home">Accueil</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="remember_me">Me rappeler</string>
+
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="about">A propos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_current_version_is">La version courente est</string>
+    <string name="AboutText">Cette application à été développée en 2016 dans le cadre d un stage d étè à Sifast.Il S agit d un  socle Android</string>
+    <string name="feedback">Feedback</string>
+    <string name="cancel">Annuler</string>
+    <string name="send_feedback">Envoyer une alerte</string>
+    <string name="save">Enregister</string>
+    <string name="emailWelcomeText">Nous sommes très heureux que vous avez rejoint notre application, nous espérons que vous apprécierez</string>
+    <string name="welcomeSubject">Bienvenue dans notre application</string>
+    <string name="resetPasswordMailSubjet">"Nouveau mot de passe"</string>
+    <string name="emailResetPassswordtext1"> "votre mot de passe a été changé et cela est le nouveau "</string>
+    <string name="emailResetPassswordtext2"> ", Nous vous conseillons de le changer.  \n meilleures salutations"</string>
+
+
+</resources>

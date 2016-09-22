@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dbUrl">https://socleandroid-2077c.firebaseio.com/</string>
+    <string name="dbUsersUrl">https://socleandroid-2077c.firebaseio.com/users</string>
+    <string name="email">"socleapp2016@gmail.com"</string>
+    <string name="passwordMail">Helloworld</string>
+    <string name="dbUrlPointOfSale">https://socleandroid-2077c.firebaseio.com/test</string>
+    <string name="dbUrlFaeedbacks">https://socleandroid-2077c.firebaseio.com/Feedback</string>
+</resources>
+
+

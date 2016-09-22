@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AppSocle</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="g">G</string>
+    <string name="Password">Password</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="welcome">Welcome</string>
+    <string name="remember_me">Remember me</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_current_version_is">The current version is</string>
+    <string name="AboutText">This application was developed in 2016 in an internship in Sifast.It is an android socle app</string>
+    <string name="feedback">Feedback</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="save">Save</string>
+    <string name="emailWelcomeText">we are very happy that you joined our app, we hope that you enjoy it</string>
+    <string name="welcomeSubject">Welcome in our app</string>
+    <string name="resetPasswordMailSubjet">"New password"</string>
+    <string name="emailResetPassswordtext1"> "your password was changed and this is the new one "</string>
+    <string name="emailResetPassswordtext2"> ",we advise you to change it. \n best regards."</string>
+</resources>

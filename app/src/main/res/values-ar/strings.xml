@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppSocle</string>
+    <string name="username">Pseudo</string>
+    <string name="password">  كلمة المرور   </string>
+    <string name="g">G</string>
+    <string name="Password">Mot de passe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Paramétres</string>
+    <string name="register">Sinscrire</string>
+    <string name="login">Se connecter</string>
+    <string name="title_activity_home">Acceueil</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="remember_me">Me rappeler</string>
+</resources>

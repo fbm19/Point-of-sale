@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".views.Login"
+                android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            >
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:text="@string/welcome"
+                android:padding="4dp"
+                android:textColor="#ffffff"
+
+                />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgView"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/logo2"
+                android:padding="48dp"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtUsername"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="8dp"
+                android:hint="@string/username"
+                android:bottomRightRadius="15dp"
+                android:bottomLeftRadius="15dp"
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp"
+                android:background="@drawable/roundededittext"
+                android:textColorHint="@color/black_overlay"
+
+                />
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtPassword"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textColorHint="@color/black_overlay"
+                android:hint="@string/Password"
+                android:textColor="@color/black_overlay"
+                android:padding="4dp"
+                android:layout_marginBottom="4dp"
+                android:bottomRightRadius="15dp"
+                android:bottomLeftRadius="15dp"
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp"
+                android:background="@drawable/roundededittext"/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remember_me"
+                    android:id="@+id/checkRememberMe"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:id="@+id/butLogin"
+                android:padding="8dp"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/txtViewLinKForgetPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Password"
+                    android:padding="8dp"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="|"
+                    android:id="@+id/txtViewSeparateur"
+                    android:padding="4dp"/>
+
+                <TextView
+                    android:id="@+id/txtViewLinkRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register"
+                    android:padding="8dp"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
